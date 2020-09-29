@@ -90,7 +90,7 @@
     </Volume>
     <Volume>
       <HostDir>/mnt/cache/appdata/iredmail/data/custom</HostDir>
-      <ContainerDir>/opt/iredmail/custom/ContainerDir>
+      <ContainerDir>/opt/iredmail/custom/</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
