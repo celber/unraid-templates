@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <TemplateURL>https://github.com/celber/unraid-templates/blob/master/celber/mailserver.xml</TemplateURL>
-  <Beta>False</Beta>
+  <Beta>True</Beta>
   <Category>Network:Mail Network:Mail</Category>
   <Name>iredmail</Name>
   <Description>
@@ -13,7 +13,7 @@
   </Overview>
   <Registry>https://registry.hub.docker.com/r/iredmail/mariadb</Registry>
   <GitHub>https://github.com/iredmail/dockerized</GitHub>
-  <Repository>iredmail/mariadb</Repository>
+  <Repository>iredmail/mariadb:nightly</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
